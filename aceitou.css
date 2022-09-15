@@ -28,13 +28,13 @@ a{
 
 img{
     max-width: 40rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     padding: 1rem;
 }
 
 @media (max-width: 600px){
     img{
-        max-width: 20rem;
+        max-width: 28rem;
     }
 }
 .box-content{
