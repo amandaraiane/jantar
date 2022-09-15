@@ -9,6 +9,10 @@
     font-size: 62.5%;
 }
 
+img{
+    max-width: 20rem;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -24,6 +28,7 @@ body{
 a{
     text-decoration: none;
 }
+
 .box-texts{
     display: flex;
     flex-direction: column;
@@ -49,29 +54,7 @@ a{
     font-size: 3rem;
 }
 
-.box-texts .box-info{
-    font-size: 1.5rem;
-}
-
-.box-texts .box-info .info{
-    color: #2e2e2e;
-    margin-block: 1rem;
-}
-
-.box-texts .box-info .info a{
-    color: #2e2e2e;
-}
-
-.box-texts .box-info .info span{
-    font-weight: 700;
-}
-.box-texts .box-options{
-    display: flex;
-    gap: 2rem;
-}
-.box-texts .box-options 
-.btn-yes,
-.btn-no {
+.btn-yes {
     display: flex;
     gap: 1.5rem;
     justify-content: space-between;
@@ -82,24 +65,13 @@ a{
     border-radius: 0.4rem;
 }
 
-.box-texts .box-options .btn-yes{
+.box-texts .btn-yes{
     color: #C92A2A;
     border: 0.2rem solid #C92A2A;
     transition: background-color .5s;
 }
 
-.box-texts .box-options .btn-yes:hover{
-    background-color: #C92A2A;
-    color: antiquewhite;
-}
-
-.box-texts .box-options .btn-no{
-    color: #C92A2A;
-    border: 0.2rem solid #C92A2A;
-    transition: background-color .5s;
-}
-
-.box-texts .box-options .btn-no:hover{
+.box-texts .btn-yes:hover{
     background-color: #C92A2A;
     color: antiquewhite;
 }
